@@ -5,7 +5,7 @@ let hInput = 0
 let area = 0
 /* Establishes a command that waits for a click on the 'area-calculate' button, where it then triggers the 'calculate' function. */
 document.getElementById('area-calculate').addEventListener('click', calculate)
-/* The function will assign whatever value/number was entered into the input boxes to the variables and translate them into integers to work with once it is activated. The assigned values of those variables will be run through the area of a trapezoid formula, with the result getting assigned to the 'area' variable. This will disable the input boxes, making it impossible to change anything at all in them, and this will display the final result in a new box with the id 'result-section', along with all the calculation and numbers used. Lastly, the code will substitute the previous calculate button with a new one with the id 'recalculate', allowing users to do another calculation.*/
+/* The function will assign whatever value/number was entered into the input boxes to the variables and translate them into integers to work with once it is activated. The assigned values of those variables will be run through the area of a trapezoid formula, with the result getting assigned to the 'area' variable. This will disable the input boxes, making it impossible to change anything at all in them, and this will display the final result in a new box with the id 'result-section', along with all the calculation and numbers used. Lastly, the code will substitute the previous calculate button with a new one with the id 'recalculate', allowing users to do another calculation. */
 function calculate () {
   aInput = document.getElementById('a-input').value
   aInput = parseInt(aInput)
