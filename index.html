@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="discription" content="Webpage that calculates the area of a trapezoid">
+    <meta name="keywords" content="Website">
+    <meta name="author" content="Alex Kimpioka">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>Area of Trapezoid Website</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 class="main-title">Area of Trapezoid Calculator</h1>
+    <div class="input-section">
+      <p class="value-headers">a</p>
+      <input type="text" onfocus="this.value=''" value="Enter Value" id="a-input" name="Value of a">
+      <p class="value-headers">b</p>
+      <input type="text" onfocus="this.value=''" value="Enter Value" id="b-input" name="Value of b">
+      <p class="value-headers">h</p>
+      <input type="text" onfocus="this.value=''" value="Enter Value" id="h-input" name="Value of h">
+    </div>
+    <img src="trapezid.jpeg" alt="area of a trapezoid picture" width="500px" id="main-image">
+    <div id="result-box">
+      <p id="result"><span id="a-result">a</span> + <span id="b-result">b</span> / 2 * <span id="h-result">h</span> = <span id="area-result"><em> area</em></span></p>
+    </div><br>
+    <button id="area-calculate">Calculate</button>
+    <button id="retry">Try again?</button>
+    <script src="script.js"></script>
+  </body>
+</html>
